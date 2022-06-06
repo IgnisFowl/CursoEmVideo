@@ -1,0 +1,8 @@
+x = input('Digite algo: ')
+print(type(x))
+print('So tem espacos? ', x.isspace())
+print('Sao so numeros? ', x.isnumeric())
+print('Sao so letras? ', x.isalpha())
+print('E alfanumerico? ', x.isalnum())
+print('Letras maiusculas? ', x.isupper())
+print('Letras minusculas? ', x.islower())
